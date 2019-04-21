@@ -1,0 +1,10 @@
+[package]
+name = "plane"
+version = "0.1.0"
+authors = ["TheZoq2 <frans.skarman@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+scad = "1.0.3"
+scad_util = {git = "https://github.com/thezoq2/Rust-scad-util"}
+nalgebra = "0.16.13"
